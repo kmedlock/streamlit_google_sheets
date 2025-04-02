@@ -20,11 +20,11 @@ tab1, tab2 = st.tabs(["Table", "Graph"])
 with tab1:
   st.write(dataframe)
 with tab2:
-  st.line_chart(dataframe,x="Date", y="Close")
+  st.line_chart(dataframe,x="# Orders Total", y="Date")
 
 # Footer text
 """
-The data shown above is the historic stock price of Google. In the "Graph" tab I have put an example of a simple graph that can be embedded. 
+The data shown above is the cumulative # of Executive Orders that Trump has signed. In the "Graph" tab I have put an example of a simple graph that can be embedded. 
 """
 """
 You can read my blog here: https://medium.com/@steffenjanbrouwer/how-to-embed-data-tables-and-graphs-in-your-medium-blogs-16d93d99ebc7
